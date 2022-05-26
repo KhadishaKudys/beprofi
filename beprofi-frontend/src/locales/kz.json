@@ -1,0 +1,987 @@
+{
+    "menu": {
+      "categories": "Категориялар",
+      "services": {
+        "all": ["Нарық алаңдары", "Әзірлеу",  "Маркетинг", "Дизайн", "Фото және Видео", "Қаржы"],
+        "list": [
+          {
+            "name": "Нарық алаңдары",
+            "id": "marketplaces",
+            "image": "https://i.ibb.co/KGnjBbV/services-1.png",
+            "services": [{
+              "title": "Amazon", 
+              "id": "amazon"
+            },{
+              "title": "Jmart", 
+              "id": "jmart"
+            },{
+              "title": "Kaspi", 
+              "id": "kaspi"
+            },{
+              "title": "ForteMarket",
+              "id": "fortemarket"
+            },{
+              "title": "Wildberries",
+              "id": "wildberries"
+            },{ 
+              "title": "Lamoda", 
+              "id": "lamoda"
+            },{
+              "title": "Satu",
+              "id": "satu"
+            }]
+          },
+          {
+            "name": "Әзірлеу",
+            "id": "development",
+            "image": "https://i.ibb.co/Drd3DXn/services-2.png",
+            "services": [{
+              "title": "Веб-сайттар", 
+              "id": "websites"
+            },{
+              "title": "Мобильді қосымшалар", 
+              "id": "mobile-applications"
+            },{
+              "title": "Ойындар", 
+              "id": "games"
+            }]
+          },
+          {
+            "name": "Маркетинг",
+            "id": "marketing",
+            "image": "https://i.ibb.co/vqgqSw1/services-3.png",
+            "services": [{
+              "title": "Диджитал маркетинг",
+              "id": "digital-marketing"
+            }]
+          },
+          {
+            "name": "Дизайн",
+            "id": "design",
+            "image": "https://i.ibb.co/W5rHR9t/services-4.png",
+            "services": [{
+              "title": "UI-UX дизайны", 
+              "id": "ui-ux-design"
+            },{
+              "title": "Моушн дизайны", 
+              "id": "motion-design"
+            },{
+              "title": "Графикалық дизайн", 
+              "id": "graphic-design"
+            }]
+          },
+          {
+            "name": "Фото және Видео",
+            "id": "photo-video",
+            "image": "https://i.ibb.co/5KTZHnM/services-5.png",
+            "services": [{
+              "title": "Фото", 
+              "id": "photo"
+            },{
+              "title": "Видео", 
+              "id": "video"
+            }]
+          },
+          {
+            "name": "Қаржы",
+            "id": "finance",
+            "image": "https://i.ibb.co/vY66x3v/services-6.png",
+            "services": [{
+              "title": "Бухгалтерия",
+              "id": "bookkeeping"
+            }]
+          }
+        ],
+        "name": "Қызметтер",
+        "marketplaces": {
+          "name": "Нарық алаңдары",
+          "amazon": {
+            "name": "Amazon"
+          },
+          "jmart": {
+            "name": "Jmart"
+          },
+          "kaspi": {
+            "name": "Kaspi"
+          },
+          "fortemarket": {
+            "name": "ForteMarket"
+          },
+          "wildberries": {
+            "name": "Wildberries"
+          },
+          "lamoda": {
+            "name": "Lamoda"
+          },
+          "satu": {
+            "name": "Satu"
+          },
+          "services": [{
+            "title": "Amazon", 
+            "id": "amazon"
+          },{
+            "title": "Jmart", 
+            "id": "jmart"
+          },{
+            "title": "Kaspi", 
+            "id": "kaspi"
+          },{
+            "title": "ForteMarket",
+            "id": "fortemarket"
+          },{
+            "title": "Wildberries",
+            "id": "wildberries"
+          },{ 
+            "title": "Lamoda", 
+            "id": "lamoda"
+          },{
+            "title": "Satu",
+            "id": "satu"
+          }]
+        },
+        "development": {
+          "websites": {
+            "name": "Веб-сайттар"
+          },
+          "mobile-applications": {
+            "name": "Мобильді қосымшалар"
+          },
+          "games": {
+            "name": "Ойындар"
+          },
+
+          "name": "Әзірлеу",
+          "services": [{
+            "title": "Веб сайттар", 
+            "id": "websites"
+          },{
+            "title": "Мобильді қосымшалар", 
+            "id": "mobile-applications"
+          },{
+            "title": "Ойындар", 
+            "id": "games"
+          }]
+        },
+        "marketing": {
+          "name": "Маркетинг",
+          "digital-marketing": {
+            "name": "Диджитал маркетинг"
+          },
+          "services": [{
+            "title": "Диджитал маркетинг",
+            "id": "digital-marketing"
+          }]
+        },
+        "design": {
+          "name": "Дизайн",
+          "ui-ux-design": {
+            "name": "UI-UX дизайны"
+          },
+          "motion-design": {
+            "name": "Моушн дизайны"
+          },
+          "graphic-design": {
+            "name": "Графикалық дизайн"
+          },
+          "services": [{
+            "title": "UI-UX дизайны", 
+            "id": "ui-ux-design"
+          },{
+            "title": "Моушн дизайны", 
+            "id": "motion-design"
+          },{
+            "title": "Графикалық дизайн", 
+            "id": "graphic-design"
+          }]
+        },
+        "photovideo": {
+          "name": "Фото және Видео",
+          "photo": {
+            "name": "Фото"
+          },
+          "video": {
+            "name": "Видео"
+          },
+          "services": [{
+            "title": "Фото", 
+            "id": "photo"
+          },{
+            "title": "Видео", 
+            "id": "video"
+          }]
+        },
+        "finance": {
+          "name": "Қаржы",
+          "bookkeeping": {
+            "name": "Бухгалтерия"
+          },
+          "services": [{
+            "title": "Бухгалтерия",
+            "id": "bookkeeping"
+          }]
+        }
+      },
+      "courses": {
+        "name": "Курстар",
+        "exams": {
+          "name": "Емтихандар",
+          "banner": "ban2.png"
+        },
+        "languages": {
+            "name": "Тілдер",
+            "banner": "ban1.png"
+        },
+        "phys-math": {
+            "name": "Физ-Мат",
+            "banner": "ban3.png"
+        },
+        "office-software": {
+          "name": "Офистік бағдарламалар",
+          "banner": "ban3.png"
+      },
+        "services": [{
+          "title": "Емтихандар", 
+          "id": "exams",
+          "num": "1",
+          "image": "https://i.ibb.co/KqR7BPQ/courses-1.png"
+        },{
+          "title": "Тілдер", 
+          "id": "languages",
+          "num": "2",
+          "image": "https://i.ibb.co/wJQhS2L/courses-2.png"
+        },{
+          "title": "Физ-Мат", 
+          "id": "phys-math",
+          "num": "3",
+          "image": "https://i.ibb.co/PQhmqQN/courses-3.png"
+        },{
+          "title": "Офистік бағдарламалар",
+          "id": "office-software",
+          "num": "4",
+          "image": "https://i.ibb.co/1zvNsKx/courses-4.png"
+        }]
+      },
+      "professions": {
+        "programming":{
+          "name": "Бағдарламалау"
+        },
+        "design": {
+          "name": "Дизайн"
+        },
+        "marketing": {
+          "name": "Маркетинг"
+        },
+        "bookkeeping":{
+          "name": "Бухгалтерия"
+        },
+        "name": "Мамандықтар",
+        "services": [{
+          "title": "Бағдарламалау", 
+          "id": "programming",
+          "image": "https://i.ibb.co/m4RtRHW/professions-1.png"
+        },{
+          "title": "Дизайн", 
+          "id": "design",
+          "image": "https://i.ibb.co/LYhTWN5/professions-2.png"
+        },{
+          "title": "Data Science", 
+          "id": "data-science",
+          "image": "https://i.ibb.co/mCXTT50/professions-3.png"
+        },{
+          "title": "Маркетинг",
+          "id": "marketing",
+          "image": "https://i.ibb.co/6YpJKFz/professions-4.png"
+        },{
+          "title": "Бухгалтерия",
+          "id": "bookkeeping",
+          "image": "https://i.ibb.co/XXLBSxB/professions-5.png"
+        }]
+      }
+    },
+    "portfolio": {
+      "name": "Портфолио",
+      "web": "Веб-сайттар",
+      "mobile": "Мобильді қосымшалар",
+      "more": "Толығырақ",
+      "open-web": "Сайтқа өту",
+      "info": "Біздің портфолиоға әр түрлі компанияларға арналған 70-тен астам жоба кіреді. Оларға веб-сайттар мен мобильді қосымшалар кіреді. Сіз олармен кез келген уақытта таныса аласыз.",
+      "watch-projects": "Жобаларды қарау",
+      "open-portfolio": "Портфолиоға өту",
+      "info-1": "Біздің жобалар бар бетке өту арқылы сіз біздің барлық жұмысымызды көре аласыз.",
+      "works": "Біздің жұмыстар"
+    },
+    "modal": {
+      "general": "Жалпы ақпарат",
+      "image": "Сурет және сипаттама",
+      "syllabus": "Курс жоспары",
+      "syllabusProfession": "Мамандық жоспары",
+      "syllabusService": "Қызмет жоспары",
+        "courseNew": "Жаңа курс",
+        "professionNew": "Жаңа мамандық",
+        "serviceNew": "Жаңа қызмет",
+        "category": "Категория",
+        "childCategory": "Санатша",
+        "name": "Атауы",
+      "currency": "Валюта",
+      "price": "Құны",
+      "discount": "Жеңілдік",
+      "overview": "Курс туралы", 
+      "overviewService": "Қызмет туралы", 
+      "overviewProfession": "Мамандық туралы", 
+      "deleteImage": "Суретті жою",
+      "nameSyllabus": "Модуль атауы",
+      "overviewSyllabus": "Модуль сипаттамасы",
+      "cancel": "Бас тарту",
+      "add": "Қосу",
+      "levels": [{
+        "title": "Бастауыш", 
+        "id": "beginner"
+      },{
+        "title": "Орташа",
+        "id": "middle"
+      },{ 
+         "title": "Жетілдірілген",
+         "id": "advanced"
+      }],
+      "level": "Деңгей",
+      "article": "Артикул",
+      "overviewText": "Сипаттама"
+    },
+    "main": {
+      "languages": [{
+        "title": "Қазақ", 
+        "id": "kz"
+      },{
+        "title": "Орыс",
+        "id": "ru"
+      },{ 
+         "title": "Ағылшын",
+         "id": "eng"
+      }],
+      "language": "Тіл",
+      "ordercall": {
+        "name": "Қоңырауға тапсырыс беру",
+        "fullname": "Аты-жөні",
+        "callme": "Маған қорыңау шалыңыз!"
+      },
+      "aknowledged": "Біздің қызметтерімізбен танысыңыз."
+    },
+    "courses": {
+      "send": "Жіберу",
+      "recommended": "Ұсыныстар",
+      "subcategory": "Санатшалар",
+      "allcourses": "Барлық курстар",
+      "allservices": "Барлық қызметтер",
+      "allprofessions": "Барлық мамандықтар",
+      "from": "Бастап",
+      "to": "Дейін",
+      "apply": "Қолдану",
+      "register": "Жазылу",
+      "more": "Толығырақ",
+      "aboutcourse": "Курс туралы",
+      "aboutservice": "Қызмет туралы",
+      "aboutprofession": "Мамандық туралы",
+      "coursesyllabus": "Курс жоспары",
+      "professionsyllabus": "Мамандық жоспары",
+      "servicesyllabus": "Қызмет кезеңдері",
+      "registerCourse": "Курсқа тіркелу",
+      "registerService": "Қызметке тапсырыс беру",
+      "registerProfession": "Мамандыққа тіркелу",
+      "fullname": "Аты-жөні",
+      "phone": "Телефон нөмірі",
+      "promo": "Промокод",
+      "callme": "Маған қоңырау шалыңыз!",
+      "emptyTitle": "Ештеңе табылмады",
+      "emptyExplained": "Сіздің сұранысыңыз бойынша ештеңе таба алмадық",
+      "emptyMotivation": "Шыдамдылық танытып, қайтадан қараңыз. Бізде сізге ұнайтын басқа да көптеген ұсыныстар бар!",
+      "alertSuccessOrder": "Біз сізге жақын арада хабарласамыз!",
+      "alertErrorOrder": "Ақпарат қате толтырылған!"
+    },
+    "footer": {
+      "contacts": "Байланыстар",
+      "information": {
+        "name": "Ақпарат",
+        "terms": "Жария офертата",
+        "privacy": "Құпиялық саясаты", 
+        "authority": "© 2012-2021 BeProfi. Барлық құқықытар қорғалған."
+        }
+     },
+     "web": [
+       {
+       "name": "ziskejte.cz",
+       "link": "https://www.ziskejte.cz/",
+       "image": "https://lh3.googleusercontent.com/_dbyUgOhQM5cWcplbfSFXpnaVX-aFr7cyUHe3fFh8YGfasKhGw82VXci8DNrIylImheZ1qoURxBYF8Osq7OgtG1zR4lgum8CKzDyIFD06L95x7Az5rmUa2XLdIoUgDFzDrTM3c8",
+       "description": "Жеңілдік купондары мен ваучерлерді сатып алуға арналған электрондық коммерция веб-сайты",
+       "framework": "Joomla"
+       },
+       {
+         "name": "GROCERY",
+         "link": "https://www.grocery.com/",
+         "image": "https://lh5.googleusercontent.com/_F-yxBrzljv6J9KsZKV11NnXqxkQpdJ_QOm8_iKWt3-PQ1B5fOck6Bi6ZKmhXXwlJmMSyVuSkyhbL0X2jL7Xgbci1WmDtf99Q5MvuZP68uLyTxzZcwSrt3VIEtJ1YYLK5Uu-3tc",
+         "description": "Интернетте өнімді сатып алуға және сатуға арналған электрондық коммерциялық сайт",
+         "framework": "Joomla"
+       },
+       {
+         "name": "Giftshopahmedabad",
+         "link": "http://www.giftshopahmedabad.com/",
+         "image": "https://lh6.googleusercontent.com/tmy2Z8OR6-6bVVz1qN3AP0FXixRPlUPwFLFqeJSOVGgfTpV_5Vsy5ss2z9k7i-1F1mZprb8Nrzyu2RoeiobnCdpsKVBuz057aDbuXMMOexhxNnIgJnS24tGcocIup_d89IK1tQw",
+         "description": "Ахмедабадта сыйлықтар сатып алуға және сатуға арналған интернет-дүкен",
+         "framework": "Joomla"
+         },
+         {
+           "name": "ktgh.besiders",
+           "link": "http:/ktgh.besiders.co/",
+           "image": "https://lh4.googleusercontent.com/Y6EqgGBRWQoMrf2MJf8YRfogz8vzeyyCm6PigcNTYUKeOMuN0kC5nR14lA9bMPAOQ4OylevH8y4ziTg2pU2ggQeTpggdM6VdGdwbMdcvep1y_WrCC0js9GAnGzzJuJeiU3hdceY",
+           "description": "Электронды коммерциялық веб-сайт парақтарды, сүлгілерді, матрацтарды, жастықтарды және т.б.",
+           "framework": "Laravel"
+         },
+         {
+           "name": "Elitestore",
+           "link": "http://elitestore.co.tz/",
+           "image": "https://lh6.googleusercontent.com/_fohT7OkgbyMGFc5QuJiEnAbJ4MT7pdlQ_ucY9cMMLCih4fMfzl3YxKsVAwGWOv_ClQz5BmWAcfJBwavlRcKDCxqPGJ3x9VOf_YiLCL3ietFZ_fXCGmpOcPATaYC60BmEK-WROw",
+           "description": "Кітаптарды Интернетте сатып алуға және сатуға арналған электронды сауда сайты.",
+           "framework": "Joomla"
+           },
+           {
+             "name": "Pricecompare",
+             "link": "https://pricecompare.co.tz/",
+             "image": "https://lh4.googleusercontent.com/D00oyAlwIbP8mXTQ_YfvFHLS5VLtcHqNTUXgQCiztuSZeujvyHgM4vxLxAOwU9JX1WLA5bh7Da5Ckz7_24FIPLL_qJUUT3woKCdr5XZgNUxlxPUaVaHB2Cytc6ZLv4aEZHq5bKk",
+             "description": "Әр түрлі тауарлардың бағасын салыстыруға арналған сайт",
+             "framework": "Joomla"
+           },
+           {
+             "name": "Michongo",
+             "link": "https://michongo.co.tz/",
+             "image": "https://lh5.googleusercontent.com/A0AgWoeyD-IBMb6K2hqPdj2yMFgQO675EaG6RCFYYp2lQaZJBleTEIRcRfCUvZzStxAXgPBqqf6iwkiUYcxnP4d_CfzPewW2NVwrYjzUInSUKqLoiEHjEuUI_X_YU58MgyBMfTU",
+             "description": "Ұсыныстар мен жеңілдіктер үшін онлайн сауда нарығы",
+             "framework": "Joomla"
+             },
+             {
+               "name": "Chateaumarsyas",
+               "link": "http://chateaumarsyas.com/en_US/",
+               "image": "https://lh5.googleusercontent.com/RLqu-7XsYuPcrfUFX_zZ3fj8oBxoweofR-qA6dB2kGMC7IwFOXrkD3n25mcS-u8gja_LRM-mWYQZunqNiQucVBkETg-ptzqAIkoK4XxhUfNEAuNK98i8J1oVahvDGBy3V7v7vm4",
+               "description": "Шарап сататын компанияның сайты",
+               "framework": "Wordpress"
+             },
+             {
+               "name": "Citiesstore",
+               "link": "https://citiesstore.com/",
+               "image": "https://lh5.googleusercontent.com/kfyy44NmQ8uJ8iCrVQbuWT1OysAFQxeM6mBZw4xr0cs4ggZK7BVb5_hi1cljbLa594F_HAuSuzphnIuXpcgBxLxJLRdofIfN4BnrCyf277toRyj6wpueWHLJ5pPilov4cLzu5hw",
+               "description": "Сатып алуға және сатуға арналған интернет-дүкен",
+               "framework": "Zend"
+               },
+               {
+                 "name": "Zaharkids",
+                 "link": "https://www.zaharkids.com/home",
+                 "image": "https://lh3.googleusercontent.com/Fkhu5CCRSYBcb8kRTi4HPOT1cdQe8X59ktfK5NnuqzE6tsT-g_j4tslPdX4lItpKGeJq8n-DA_TUterbQbn0iioZtzs9N0mbJ4utFwx2lsMBPqioVk_pIqaTGy-b1acGypu_Hbc",
+                 "description": "Балалар киімін сатып алуға және сатуға арналған интернет-дүкен",
+                 "framework": "Zend"
+               },
+               {
+                 "name": "Zaharlingerie",
+                 "link": "https://www.zaharlingerie.com/",
+                 "image": "https://lh4.googleusercontent.com/kEI4MzYykIaIvKBf0RsvPbfM-XTrMFLWWivH11rkVtEQypBTQHLgImHfgvpDHPzPp7cjL43VeH9Bi6HPGxBVpXMIMhGYp3Fb26xD3dqaeU88jFUCidE3dgO8LOUqqylp3wI7o6Y",
+                 "description": "Киім сатып алуға және сатуға арналған интернет-дүкен",
+                 "framework": "Zend"
+                 },
+                 {
+                   "name": "Tanzmed",
+                   "link": "https://tanzmed.co.tz/",
+                   "image": "https://lh4.googleusercontent.com/7rXMiP-agpjm7f68M4L8YQHPrGsXWJB7GPHyF8WPXfixDG6GFaSr2_HJIxMvLbNLTYrD_BRbHnMLm50QunrRUFZD5GhOAGoN7xII2EMYeM__h6laZIlanqSB3RvCupPryGjTHIM",
+                   "description": "Әйелдер денсаулығының мәселелерін дәрігерлермен талқылауға мүмкіндік беретін сайт.",
+                   "framework": "Joomla",
+                   "app-link": "https://play.google.com/store/apps/details?id=com.dudumizi.tanzmedtz"
+                 },
+                 {
+                   "name": "Startlivingright.net",
+                   "link": "http://startlivingright.net/",
+                   "image": "https://lh6.googleusercontent.com/l-HWJ5dMzSvk5d9dEwXC6wfxm3mBHbN1K2Rl6TSKE96nsNGmUXfCzO_W-KLrNQZMVeIzGt4-hrUaTIAyc72_Mv57wrJfIueBXzBTHW3ifxlBJNcHCy8fCNmhV-XgDOdlnVOzLN8",
+                   "description": "Денсаулық пен фитнес сайты",
+                   "framework": "Wordpress"
+                   },
+                   {
+                     "name": "Startlivingright.com",
+                     "link": "http://startlivingright.com/",
+                     "image": "https://lh5.googleusercontent.com/XhP1p6Wr3UEHObEkUakep6YlhJW8kS70a4ySjy3SP1DwtQIvZq7VDwRQjVZ2AO07FswEbPuO0b5qFTe3R2v1C6zRTGQOILFlrs_he8fgLjQ07bSdK8mlTYNg5q2BA9Nq6iO89gY",
+                     "description": "Денсаулық пен фитнес сайты",
+                     "framework": "Wordpress"
+                   },
+                   {
+                     "name": "Atticus",
+                     "link": "http://atticusarch.com/",
+                     "image": "https://lh6.googleusercontent.com/j5yqWO8Z80QRArVhwfLxtgE4ORVTbyHedCG7GWcBZM6aqpqSXw_vf5YCYSHuzxBAKQa3Jq-G3hGbZrptmPwlgFFtzPZgRjnoupUOrpdHWF2auRAOq5bmxM3Prtuqd13vUecS0mM",
+                     "description": "Біз өз клиенттерімізге директордың жеке қызметінің артықшылықтарын, сондай -ақ жиырма бес жылдық кәсіби практиканың тереңдігі мен кеңдігін ұсына алатын шағын фирмамыз. Біз қоршаған ортаға, сондай -ақ әр сайттың контекстіне және ауқымына сезімтал өнерді шығарумен және клиенттеріміздің ерекше талғамы мен өмір салтын көрсететін мақтанышпен мақтанамыз.",
+                     "framework": "Core PHP"
+                     },
+                     {
+                       "name": "Proprietes-triple-net",
+                       "link": "https://proprietes-triple-net.com/",
+                       "image": "https://lh4.googleusercontent.com/A4vV-kuXBVKw9QHvJxQGF5R6w9gmWVWPeLFRJHxl23YSwj_U3hsl-TgkBvui4HYjwqHyfDeef0WrcSiTXC0YvQ9_Sa6iasF_m_tR3AfLh5G9YBtPrKATefjcQV6hFvBEGEytH4k",
+                       "description": "Мүлікті іздеу сайты",
+                       "framework": "Wordpress"
+                     },
+       {
+         "name": "Coolwork",
+         "link": "https://www.coolwork.es/",
+         "image": "https://lh5.googleusercontent.com/YuRToenwFvkpXZSDHfO7nTyEGo0ujoNob38EURfP4QR6bn6Rzlg_aVeAM8-Nsv7ou4uIx1A82dnGyaqcvT3qn0uRee5TFw_BoGKmjA1-dm8xzEZ1onuc6o_nn-G3nS-c6KILMqs",
+         "description": "Жұмыс орындары мен жұмыс үстелін жалға алуға арналған сайт",
+         "framework": "Joomla"
+       },
+       {
+         "name": "Coldwellbankersamara",
+         "link": "http://www.coldwellbankersamara.com/",
+         "image": "https://lh6.googleusercontent.com/C1pIo2ae9WnCfu_m1TY2Y0JWU1ka5BPCVYFTYGP8uLXAkOuPo-nZVRQ6GN-o3ob_gZ7Fq0UoQBlaxopCbvNUfGh-rwod7CI5z9K1M305N4MVBxE8UEob7yGlIps3q14YEsJbFgg",
+         "description": "Жылжымайтын мүлік сайты",
+         "framework": "Joomla"
+       },
+       {
+         "name": "Coldwellbankercr",
+         "link": "https://coldwellbankercr.com/",
+         "image": "https://lh4.googleusercontent.com/e_oHiSMEUWUBJQV2RUY7BdlrImDGZA9ALx7et9ANEIETsZyOiyyKzbL5wsuHxaZzC6zVCYd_p_J-Fp5IAXNew5NL06NlT2uYeYgOflLPqFi75sDFdiyGYzkmaEjxib7zHn4HA9Q",
+         "description": "Жылжымайтын мүлік сайты",
+         "framework": "Joomla"
+       },
+       {
+         "name": "Coldwellbankercostarica",
+         "link": "https://www.coldwellbankercostarica.com/",
+         "image": "https://lh5.googleusercontent.com/r8Rb_RquOGeQXnR8eJlC0V_msM8jzB1ATCMdmz8x2Lq7TvhgQFsFm7vo9RAZdq0Rp_MV8NGU2Qwv0en5btEhNx5oWIXJRvg3uyPysXi8jDhO6JRn5dDRVbkxuiH5wQts172iGq8",
+         "description": "Жылжымайтын мүлік сайты",
+         "framework": "Codeignitor"
+       },
+       {
+         "name": "rootsgroupuk",
+         "link": "http://www.rootsgroupuk.com/",
+         "image": "https://lh6.googleusercontent.com/cc86vEYgIG6WiYqPwWfdZfPXFO9LWZAO0-fLQaUZMaKuBUK-Uz5FG0dxVBcXgtn0rZ1T8PuL6J-7JAdfil_KxSM_CHngZ2wzWbtvF2nn26TRzBujyTOSqDYRWweF1lgObf_HiRY",
+         "description": "Үш бөлімнен тұратын компаниялар тобы; Сәулет, интерьер дизайны, әрлеу жұмыстары, құрылыс материалдары өндірісі мен архитектуралық әрлеу, сонымен қатар құрылыс техникасы мен құрылыс техникасын таратуды қамтамасыз ету.",
+         "framework": "Wordpress"
+       },
+       {
+         "name": "Bestereisen.de",
+         "link": "http://bestereisen.de/",
+         "image": "https://lh4.googleusercontent.com/IaKevU2t94oFLpTpzJe6rIT4ydhMSi-kDYSLXv9UfAGqextb12iDLP-Mdu4MwEWbLBQXmljYJ-L1z2f0Rj_Osp1AivzI0wMsLRVuBdooMX5j8xFKNOuym9LPixkuxml_0BKuGBc",
+         "description": "Мерекеге қонақүйлерді брондауға арналған сайт",
+         "framework": "Joomla"
+       },
+       {
+         "name": "Wilddiscovery",
+         "link": "http://wilddiscovery.com.lb/",
+         "image": "https://lh3.googleusercontent.com/TN2oSU_zzaW18k3yHFYnGPAWwRj2XgI7OAWhODm15JKPYFok1SXDo6vMMK9R8CEB74OqHh_r1XSoblsVGyDo2HgEFMw6m09gGaisKUzX9F9ohI_h1pzxQuVcTAAIxfGrmgMy1UI",
+         "description": "Саяхат сайты",
+         "framework": "Joomla",
+         "app-link": "https://itunes.apple.com/in/app/wild-discovery/id1033124505?mt=8"
+       },
+       {
+         "name": "Top indian schools",
+         "link": "http://topindianschools.com/index.php",
+         "image": "https://lh3.googleusercontent.com/HWvsquSYEU1QikauD9NQRMEMTixooFz3x1ANSOWzwqBVm8eCEt7zy0SMsFWnEQTkJ-wlVFERYFwDod5TVBk4TzF9W8uRDBCl0LbXAXMN3nmKMKDZ852OchCBDDIjcSeLHX2bP4A",
+         "description": "Қосымша ақпаратқа толы Үндістандағы ең жақсы мектептердің тізімін көрсететін сайт.",
+         "framework": "Joomla Angular"
+       },
+       {
+         "name": "Schoolpro",
+         "link": "http://www.marketleb.com/schoolpro/",
+         "image": "https://lh6.googleusercontent.com/YfTI4P7fD7msgT20ardF0smmIKuQPqlQVcmyHTTbRmsjzhnB3I8IvY1Gn7NWX3t7BxrlHZ3q8tnA7BzYH-P-XsBtkEr6fYROGtt_lVPwgIzr4_DTqHkL80GSnZzYBXHl-Lc10zQ",
+         "description": "Қосымша ақпаратқа толы Үндістандағы ең жақсы мектептердің тізімін көрсететін сайт.",
+         "framework": "Joomla"
+       },
+       {
+         "name": "Feliciavivo",
+         "link": "https://feliciavivo.com/index.php/en/",
+         "image": "https://lh3.googleusercontent.com/AgTDAOFPw_jfmG1iUcq8gA5iS85xWdYdaX8J0A7AEg_l1rO9X47crZEz-GxqmrX8f9gSCZgTXYvgN0ePyKiVaHsmCLZK4wAEs9aPx8TN4FnY-hGeI0El63cAUcybzjtvt7mLlQM",
+         "description": "Feliciavivo - бұл қызметтердің агрегаторы - медицина, сұлулық, спорт және білім саласындағы бизнеске, ірі емханалар мен кіші медициналық орталықтарға, сұлулық салондары мен курорттарына, фитнес -орталықтарға, тренажер залдарына және басқа да қызметтерді табудың ыңғайлы және түсінікті әдісі. білім беру мекемелері, жеке мамандар үшін, сондай -ақ осы қызметтерді тұтынушылар үшін.",
+         "framework": "Joomla",
+         "app-link": "https://play.google.com/store/apps/details?id=app.com.feliciavivo"
+       },
+       {
+         "name": "Honeybeautycare",
+         "link": "http://honeybeautycare.com/",
+         "image": "https://lh4.googleusercontent.com/AQYTmk8ts4l11_0WdwtWnvOwA10O7gCe6TRJSzXRbLU5yxSO0Rzs5HumBXYnASolldt35wCouY7wNQjHg-FrNDs61UbSyQuZy2R2tZhR1JpPjEvVFPLAt-F_DWIfHcuEz2iZMIA",
+         "description": "Үйдегі сұлулық қызметтерінің сайты",
+         "framework": "Joomla"
+       },
+       {
+         "name": "Lavo Parcel",
+         "link": "http://lavoparcel.com/",
+         "image": "https://lh3.googleusercontent.com/AAOwVYrhf_uOfZVYCcblASljneiusgXWZQzHqfjJUuYb-wSGDRpfNoTq_fLZSttik3W82iATn9-MUE7UmZI6ziPXXA1cr8wkIwXZPFy12tUNt96nF82thqnQ8WhjjGxlWN_OuFk",
+         "description": "Lavo Parcel бір нәрсе жіберуді қажет ететін және бірдеңе тапқысы келетін екі адам арасындағы байланысты қамтамасыз етеді. Платформа сізге тауарды немесе сәлемдемені оңай алып, жеткізуге мүмкіндік береді.",
+         "framework": "Codeignitor"
+       },
+       {
+         "name": "Growth in Motion",
+         "link": "https://www.growthinmotion.co.za/",
+         "image": "https://lh3.googleusercontent.com/9gWfWbYZlD3YldWhN1_B-CoTKpy1GeWO55C-vEjzJrWCzMbps39Cz3a6ONf4uPuhVcXSTrG_66ULBSj0SjJqNnhDiyi5U_lPs60CrzS8q0vGPvN5A3pqnArET6WBALPM-5-ZDRU",
+         "description": "Корпоративтік және корпоративтік салаларда клиенттерге бағытталған араласулар мен шешімдер арқылы адамдардың өзгеруіне қатысты халықаралық танымалдылық пен тәжірибені, жәрдемдесу, жәрдемдесу, оқыту, талаптарды сақтау, консультация беру, коучинг, дизайн және дамыту, бизнес үшін құндылықтар жасауды қамтамасыз ететін жоғары кәсіби команданы қамтамасыз ететін Веб-сайт. бизнес секторлары.",
+         "framework": "Joomla"
+       },
+       {
+         "name": "Zono-030",
+         "link": "http://airtime.us/",
+         "image": "https://lh5.googleusercontent.com/KVdcBkXK1lgr1afHPcRB_pnjUEIQoZ57ZHxVcnsDEb6myfLkjyubt7s2Sbja4o9aqPfELko2Awx2U1_66K2J2YwFQpGuM-aHBv6bjMgbqMdAI-PjBq5xPlsholI5zY99pq2RIC4",
+         "description": "IIREC Technologies Israel Ltd zone030 смарт-картасын жасаушы және өндіруші болып табылады және бүкіл әлем бойынша смарт-карталарды сатуға франшиза ұсынады, Австрияның Кремс қаласында орналасқан Халықаралық зерттеу институты iirec патенттік рәсіміне сәйкес магнит өрісін өлшейді. IREX Technologies-2005 жылы құрылған израильдік технологиялық компания.",
+         "framework": "Joomla"
+       },
+       {
+         "name": "ksmdml",
+         "link": "http://www.ksmdmcl.org/Mango-Picking-Tourism/index.php",
+         "image": "https://lh6.googleusercontent.com/c0SEiP0q_JakB8Uw4lS5D7Gkw2VE4JN5OtcSdBTvuID2s4VvvSNQv15-hHbuSSf9NnWXBZCsE-0YDfd808DaW9vHZ24gt6cSMcZeRed6ufeGM6oJldahfxfjmkN4HeM9v7odutQ",
+         "description": "Манго өсірушілердің және тұтастай алғанда мемлекеттің мүддесі үшін манго жемістерін өсірудің, егіннен кейінгі басқарудың, маркетингтің және экспорттаудың жалпы дамуына ықпал ету.",
+         "framework": "Codeignitor"
+       },
+       {
+         "name": "Stallplan",
+         "link": "http://organics-millets.in/stallplan/",
+         "image": "https://lh4.googleusercontent.com/ks8uNyYsqxpYf6gcQ-oW9Qab0KbHXrh-QZmQ6tLQQMpoWN__ha7T8Ne52G5JI8jJIRtyluofT7Q40dDUhCFtaKzKRZoP9lBXhLpg9wD4qJm9kFUHjXuxklObdAiSsfQxzPOZvE4",
+         "description": "«Ұлттық сауда жәрмеңкесі - органикалық өнімдер мен тары 2017» - Бұл ауыл шаруашылығы, бау-бақша, қайта өңдеу және өнімді өткізу саласындағы перспективаларға арналған ұлттық конференция және көрме.",
+         "framework": "Codeignitor"
+       },
+       {
+         "name": "Exactehrm",
+         "link": "https://exactehrm.co.tz/HRMSystem",
+         "image": "https://lh6.googleusercontent.com/Li9-6OFpoPz9wTpZpK5wfShzOYxQVWc6U1lHBzjDp56PGqDWu1skkDcdVY7u6PSCFJx9P6scroF5fhFZAZcTAOUUKvz3U4x3Cv63gJT6wy7YwhJm-RNGgfZEEUJH_3pwfNzz5NY",
+         "description": "Жалақы жүйесі мен кадрлық саясатты қоса алғанда, компанияны басқаруға арналған сайт.",
+         "framework": "Codeignitor HMVC"
+       },
+       {
+         "name": "Takeitpersonal",
+         "link": "https://takeitpersonal.info/",
+         "image": "https://lh4.googleusercontent.com/7Rr7dmKgJ1PQdYRulGxhnYtOPccAudNSb2CuiXqu-7wEDlXSN3ZZ-mB5RETZzioUik37dWz376Ah-3ejOmieCQSVucFNQSxw1bv7j_TFVZXJoPBlgSpXSoWAoi6nd8wQzqH98kY",
+         "description": "Пайдаланушылар үміткерді таңдайтын және олардың қажеттіліктерін олардың пікірлерімен немесе үміткерлердің қажеттіліктеріне қалай әсер етуі мүмкін екендігімен байланыстыратын бірнеше сұраққа жауап беретін веб-сайт.",
+         "framework": "Codeignitor"
+       },
+       {
+         "name": "Amrutkamal",
+         "link": "http://amrutkamal.com/",
+         "image": "https://lh5.googleusercontent.com/c8X6VIeLTy0g9hdtg9f1qwXCXj06oKz46f2uxdzfZQTxmnCPeXQaq7tw3imK1Ceu-SLdEQGO8Y-zt85Ex6YaNbERXNzVF4GZPBPwhfb7N97jhBJXFZqa7iu93cIFFFhljx5b5JU",
+         "description": "Фермерлерді ауыл шаруашылығы өнімдерімен және пайдалы ақпаратпен таныстыруға арналған сайт.",
+         "framework": "Wordpress"
+       },
+       {
+         "name": "bargylus",
+         "link": "http://bargylus.com/fr_FR/",
+         "image": "https://lh5.googleusercontent.com/0jnPjjEaiMbKFNd4BbwtetXguT8_kjwgtqbfm7x_0YUxMpyWyGbfSLdTVohTeiyjt526RHV4ZRHeRQjMb-qmi4koAJgaWwCCjFmnFoPiMrAiKJymEVZAyVTWWqpPbx8nYXUqgtc",
+         "description": "Шарап сататын компанияның сайты",
+         "framework": "Wordpress"
+       },
+       {
+         "name": "CDS-MC",
+         "link": "http://cds-mc.com/",
+         "image": "https://lh5.googleusercontent.com/P-Y4u0LY5xscYaydmEQNa_1omw3sBaoqB__6Vca06-7GeK07BeRoMFbJccl9vgmMJeFcwJzblFpMTvOWCNEj2ssDdLzNfH6iWoxNbjx2xDvY5ZBDjYaCuyfTs61s04-z5_WVrlk",
+         "description": "DSS (Consulting and Development Services) - қосылған құны жоғары консультациялық қызметтерді ұсынуға мамандандырылған басқару мәселелері жөніндегі тәуелсіз консалтингтік фирма.",
+         "framework": "Codeignitor"
+       },
+       {
+         "name": "Sanedpartners",
+         "link": "http://sanedpartners.com/",
+         "image": "https://lh4.googleusercontent.com/Qih63_TGmwDTxvaY8HgGMBeDMONItozWrj1LzTyt8CsqT2F9OJxRv74cBw4vJbJyteVfSKdpaI9AEc8PoF-1MIffrIvnzV3efL2UlrtrlrhgBwRTpiO5eRSgnyO9u_qcyIG-_SA",
+         "description": "Saned Partners-бұл тәуелсіз басқарылатын венчурлық капитал қоры, оның мақсаты MENA аймағында ерте сатыдағы компаниялардың өсуі мен кірістілігін ынталандыру болып табылады.",
+         "framework": "Codeignitor"
+       },
+       {
+         "name": "Iraq real estate",
+         "link": "https://iraqrealstate.com/",
+         "image": "https://lh5.googleusercontent.com/k3BHgee-ESVpFILtiMpepQEhNV1Xz2Xf-sYsuHuzmp93FEbj7aE789HnSwEp4qKceFoIQh7IThhMbBhUv6GGKFg5NutYvndS13ut-6UbKLESiJCaFp_B2k-GqHnTP-54Bv5M-Bs",
+         "description": "Iraq real estate-бұл Ирактағы келесі үйді табуға көмектесетін алғашқы жылжымайтын мүлік қосымшасы! Ирак жылжымайтын мүлігі сіздің қалаңыздағы барлық үйлерді, пәтерлерді, жерлерді, фермаларды және басқаларын тізімдейді. Захудан Басраға дейін сатылатын немесе жалға берілетін барлық мүлікті табыңыз. 3 тілде қол жетімді: Араб, күрд, ағылшын.",
+         "framework": "Laravel"
+       },
+       {
+         "name": "Iraq car",
+         "link": "http://iraqcars.net/",
+         "image": "https://lh5.googleusercontent.com/EV-hMNorFjXU2K0mT4vOQkqlbpmo14Nqei97HbhkE5TvvLCga90Wn84cYtEfNSXYqFTArrtr_fr_D8X3VOWjnOtiZNA-1FNOTWTu-A_NlNhN2PJpN7N2f0ER7UQmIFNbzh5uqfs",
+         "description": "Iraq car-бұл Ирактағы алғашқы автомобиль қосымшасы, ол Сізге келесі көлікті табуға немесе көлікті жалға алуға көмектеседі! Ирак автомобильдерінің тізімі сатып алу және сату, жалға беру компаниялары, Автосалондар, Автосалондар. Захудан Басраға дейін сатылатын немесе жалға берілетін барлық автомобильдерді табыңыз. 3 тілде қол жетімді: Араб, күрд, ағылшын.",
+         "framework": "Laravel"
+       }
+     ],
+  
+     "mobile": [
+       {
+         "name": "Sawers Bolivia",
+         "link": {
+             "appStore": "https://apps.apple.com/in/app/sawers-bolivia/id1491720132",
+             "playMarket": "https://play.google.com/store/apps/details?id=com.harmis.sawers&hl=en"
+         },
+         "framework": "Spring",
+         "image": "https://lh4.googleusercontent.com/6TfABZZNSEM38AXbshX2_5J5_PQJKd7eoujy92-qaDtArr3Lb2c7eCTtUuU58MNthG1MDHjixC0gBp5iV_916h213FQynA74bymbQw97iAgJv86tR8qegaDZ7trCtVBYjHmsXRM",
+         "description": "SAWERS - бұл біздің https://tienda.sawers.com.bo веб -сайтындағы кеңейтілген мобильді қосымша, онда сіз біздің өнімдер мен қызметтер каталогына қарапайым және интуитивті түрде қол жеткізе аласыз."
+      },
+      {
+         "name": "Arvo car",
+         "link": {
+             "appStore": "https://apps.apple.com/us/app/arvocar/id1493366897#?platform=iphone",
+             "playMarket": "https://play.google.com/store/apps/details?id=com.arvo.car&hl=en"
+         },
+         "framework": "Spring",
+         "image": "https://lh3.googleusercontent.com/_oXX3nVRVDlDdpRAhzsvbIG6sMensQ3Lyg1sBb8cL89GH60mVhS6ZW4u58jkFUeLa2gpWslLx7fsAVspfmknmivqX5E4jl4O43X7-c9FFNYUq9Ut2V8wxAgqItUbZ3id7o5acGw",
+         "description": "Біздің формула қарапайым; біз таза, құрғақ және жылтыр көлікті әр уақытта жеткізу арқылы адамдарды бақытты етеміз. Қандай көлікпен жүрсеңіз де, бізге хабарласу арқылы сіз өзіңізді жақсы сезінетініңізге сенімдіміз."
+      },
+      {
+       "name": "Iraq car",
+       "link": {
+           "appStore": "https://apps.apple.com/us/app/iraq-cars/id1482091528?ls=1",
+           "playMarket": "https://play.google.com/store/apps/details?id=com.iraq.carmarket"
+       },
+       "framework": "Spring",
+       "image": "https://lh3.googleusercontent.com/xt7WQ0gJNijyyiTJiNvEe4g2LhVy6-_779hUU4fzkaxCmS9zUkXloJGfOqIwA_LYm2hM6WdFFrz-2Q8axecAE5lpT56tDwVLVOe5WObgAP_qcBGOv_3PCCRD1tROBLwf4SLyngA",
+       "description": "Iraq car-бұл Ирактағы алғашқы автомобиль қосымшасы, ол Сізге келесі көлікті табуға немесе көлікті жалға алуға көмектеседі! Ирак автомобильдерінің тізімі сатып алу және сату, жалға беру компаниялары, Автосалондар, Автосалондар. Захудан Басраға дейін сатылатын немесе жалға берілетін барлық автомобильдерді табыңыз. 3 тілде қол жетімді: Араб, күрд, ағылшын."
+     },
+     {
+       "name": "Iraq real estate",
+       "link": {
+           "appStore": "https://apps.apple.com/us/app/eqarat-iraq/id1477793098?ls=1",
+           "playMarket": "https://play.google.com/store/apps/details?id=com.iraq.realestate"
+       },
+       "framework": "Spring",
+       "image": "https://lh6.googleusercontent.com/DIoxwaiA6LeNqGnrYyt8gnRplY_uVBuM04kj2rNYf4bfh4oh2W6J8Az2UcXZDOdYknC3FwEMi12yZD6-3jDyA2hfxROFPJ7fyvjhFudExtiIop_sUv0nvb9Hv8pNBAJqOov2Lco",
+       "description": "Iraq Real Estate-бұл Ирактағы келесі үйді табуға көмектесетін алғашқы жылжымайтын мүлік қосымшасы! Ирак жылжымайтын мүлігі сіздің қалаңыздағы барлық үйлерді, пәтерлерді, жерлерді, фермаларды және басқаларын тізімдейді. Захудан Басраға дейін сатылатын немесе жалға берілетін барлық мүлікті табыңыз. 3 тілде қол жетімді: Араб, күрд, ағылшын."
+     },
+     {
+       "name": "School easy",
+       "link": {
+           "appStore": "https://itunes.apple.com/in/app/school-easy/id1102314466?mt=8",
+           "playMarket": "https://play.google.com/store/apps/details?id=us.adminsys.schooleasy"
+       },
+       "framework": "Spring",
+       "image": "https://lh5.googleusercontent.com/AAuVxgIUc0Rld-2pgPwwBI4exDjN8vFCWCNEn9I0TE7IwR7y34gB9Pdl1p-Vw1SGME9HgVIWh_sodTLHsSC_PfNcD0t4-O9rkz6V3UgYNItanhpaLRlVhbcQkrZOG5zV6ceepdI",
+       "description": "Мектепке қатысты барлық нәрселерді бір жағынан басқаруға арналған қосымша"
+     },
+     {
+       "name": "Near me",
+       "link": {
+           "appStore": "",
+           "playMarket": "https://play.google.com/store/apps/details?id=com.nearme.activities"
+       },
+       "framework": "Spring",
+       "image": "https://lh6.googleusercontent.com/Ki2rZHdJC8SnUone7ylq-pvN3q4oQj2h7fpPKqp5q2NGIv_YCu7WAs1NU6t9BNIDBCrxS3vdgKmx4tyjPUAmQq6htsd_4ao7W7eraWPe4DkZOWffN-szrGtSZL1W4aQgJ6X0KhM",
+       "description": "Сіздің орналасқан жеріңізге жақын жерлерді табуға арналған қосымша"
+     },
+     {
+       "name": "Rockways Business",
+       "link": {
+           "appStore": "http://appshopper.com/business/rockaways-business",
+           "playMarket": ""
+       },
+       "framework": "Joomla",
+       "image": "https://lh3.googleusercontent.com/icSXMpvsa966XKIxcfOuD-RSIV9TiuEQ_wD6RoxPIp5vJH41TiY4bqL6QnMzsCNTDfIwqRkk08558XluthqQoL3ssQ2So6SzQTvhXqyuHZTlUZPQHsPfFq-fMCdYARkocp4uPXA",
+       "description": "Арнайы ұсыныстар туралы мәртебені жаңартуға, сіздің бизнесіңізге немесе қауымдастығыңызға оқиғалар туралы хабарлауға, бизнес каталогына, мейрамхана каталогына, фотосуреттерді жүктеуге, жеке хабарларға."
+     },
+     {
+       "name": "Take It Personal",
+       "link": {
+           "appStore": "https://itunes.apple.com/us/app/take-it-personal-by-aprod-llc/id1303496820?",
+           "playMarket": "https://play.google.com/store/apps/details?"
+       },
+       "framework": "Codeigniter",
+       "image": "https://lh3.googleusercontent.com/nWq0RvWAwUZLubKADW0_8wOTvv39b34vUv4Q0bKI4b7eG2b2Nxf_p9e9QZMLBw19lVl07UZO8QioXh4ivk2dx4VJYYx_CfBq8Qh2C3anErB97iVp2dRVdkg-Ao_yRGmeB0ieYRQ",
+       "description": "Пайдаланушылар кандидатты таңдайтын және олардың қажеттіліктерін олардың пікірлерімен немесе үміткердің қажеттіліктеріне қалай әсер етуі мүмкін деген үміттерімен байланыстыратын бірнеше таңдау сұрақтарына жауап беретін веб-сайт."
+     },
+     {
+       "name": "Wild Discovery",
+       "link": {
+           "appStore": "https://itunes.apple.com/in/app/wild-discovery/id1033124505?mt=8",
+           "playMarket": ""
+       },
+       "framework": "Joomla",
+       "image": "https://lh3.googleusercontent.com/r2hCiWK0DnPPcQG7tECWdAf_cjbXHw1T3EmPwa5jYgTcCZXU4_Gyfx4VH03KteEkaWqRjAua2iJiiOgI_KXFSRrET-J4eHdwhaiNZ70iQtutZlnQb_7Ga-9Q8zybi6AQMHs4wJc",
+       "description": "Қонақ үйді брондауға арналған туристік бағдарлама"
+     },
+     {
+       "name": "StartLivingRight",
+       "link": {
+           "appStore": "https://itunes.apple.com/us/app/start-living-right/id922905965?mt=8",
+           "playMarket": "https://play.google.com/store/apps/details?id=com.slr.startlivingright&hl=en"
+       },
+       "framework": "Spring",
+       "image": "https://lh3.googleusercontent.com/RraZ9ggizIRMQ026vPVRIUFdf0V_cXu8tyk2TgB6FlnDzEbIyLQXLM_BU8zFb7JGm9cTT77WX_VvERFHufcfo4N6tEXE3-aaqxQwYhG8NNmssSXqI6MSGGkiRFHPrIxs3QW4K-M",
+       "description": "Денсаулық пен фитнес сайты"
+     },
+     {
+       "name": "Tanzmed",
+       "link": {
+           "appStore": "",
+           "playMarket": "https://play.google.com/store/apps/details?"
+       },
+       "framework": "Joomla",
+       "image": "https://lh4.googleusercontent.com/71X7ZA2j5YOw1OTk3Hz-42sBs27vzeCo2zplqGz0093U9-FmgMvco8XfifNechPDr-UuSZvPkLcZjIia3-_gw75mfYSsAJ37DbSGrr1WNs-uSC-2PEXZ-xlB_c8IiNFeiYdmhFM",
+       "description": "Әйелдер ауруларына арналған қосымша, онда олар дәрігермен хабарласа алады және кездесуге жазылуға болады."
+     },
+     {
+       "name": "Amrutkamal",
+       "link": {
+           "appStore": "",
+           "playMarket": "https://play.google.com/store/apps/details?id=com.harmis.amrutkamal"
+       },
+       "framework": "Codeigniter",
+       "image": "https://lh6.googleusercontent.com/vu05jLY413m3i3QnyB6kgqnVfg2D0LzpeoLiFCNQsy1FS-G8kTRm4z0dio-GSSVNDRPbbTAA7KnuaIV9glFvzjC6gNd2uq-g2YqXu2nvG4q54HFVvumOqtWB6xAC9IUau-FYvYs",
+       "description": "Фермерлерге жаңа технологиялар мен пайда схемалары туралы білуге ​​арналған ақпараттық бағдарлама"
+     },
+     {
+       "name": "Zgharta",
+       "link": {
+           "appStore": "https://itunes.apple.com/lb/app/zgharta-app/id1151007515?mt=8",
+           "playMarket": "https://play.google.com/store/apps/details?id=com.zghartaapp&hl=en"
+       },
+       "framework": "Joomla",
+       "image": "https://lh3.googleusercontent.com/tT_daWHAWGxac_yI_EIA4noR9O4napT9AlG4tYs08UZlqZ3fipW8A8QaEzf3xECeOZusWmGfjflMEjsbc4xzA9wyVAGBHYrOnESbmAqfdKgfHkadZ0KdpnsoNBVoF9lkpcPfZK4",
+       "description": "Згартаның барлық соңғы жаңалықтары мен оқиғаларына арналған қосымша"
+     },
+     {
+       "name": "Gorakhpur Times",
+       "link": {
+           "appStore": "https://itunes.apple.com/in/app/gorakhpur-times/id1140448964?mt=8",
+           "playMarket": ""
+       },
+       "framework": "Joomla",
+       "image": "https://lh3.googleusercontent.com/ZUG6ZoYsQU8qu8qS440wHJzwlKnoum-viOIqWdjH5uTPnfWBU84HNHQwvjtFBBvm8hUvTm2z6LWfutsIOqkhvkRfiGJtiTLhfbLa4OXjk7-oVA8Ww6C2wD6QhKVjCg-LLMazGA4",
+       "description": "Арнадағы соңғы жаңалықтарды көрсететін жаңалықтар қосымшасы"
+     },
+     {
+       "name": "Glory FM 97.1",
+       "link": {
+           "appStore": "https://itunes.apple.com/us/app/gloryfm-97-1/id966885349?mt=8",
+           "playMarket": ""
+       },
+       "framework": "Spring",
+       "image": "https://lh6.googleusercontent.com/tu0zGoIWq8e38C6MXkPJ8_ekhaUMq6EguaJACgVPi9Vb12tNd32eMSmwJrKoJYtMeUct93LWeYFYg3NJS1UBDwMW9R625r7Q_I7Mt3ECxqMyGb67ADKEHAu2wgJ9f1FcGymmRNE",
+       "description": "Пайдаланушылар радиоарналарды тікелей тыңдай алатын радио қосымшасы"
+     },
+     {
+       "name": "Basra times square",
+       "link": {
+           "appStore": "https://itunes.apple.com/us/app/%D8%B1%D8%A7%D8%AF%D9%8A%D9%88-%D8%AA%D8%A7%D9%8A%D9%85%D8%B2-%D8%B3%D9%83%D9%88%D9%8A%D8%B1/id1189913447?mt=8",
+           "playMarket": "https://play.google.com/store/apps/details?id=com.harmis.btsfm"
+       },
+       "framework": "Joomla",
+       "image": "https://lh4.googleusercontent.com/cJJk9PZKyfqLc201fNTxAQrb5eTQpZrLtipoS9oEfekvbzz6O54ns4SFDs2ra_H2n87pl1Y9lVD8sFlrVfD59bHNzyJuVWsnctxCI73_tdhJxLhcxNl-ub5fcvbFJUq1RNG-ktE",
+       "description": "Пайдаланушылар радиоарналарды тікелей тыңдай алатын радио қосымшасы"
+     },
+     {
+       "name": "Honey beauty care",
+       "link": {
+           "appStore": "https://itunes.apple.com/us/app/honey-beauty-care/id1126268812?mt=8",
+           "playMarket": "https://play.google.com/store/apps/details?id=com.honeyBeautyCare&hl=en"
+       },
+       "framework": "Spring",
+       "image": "https://lh4.googleusercontent.com/L3w6ADFnqTlnTnK05-_Qd0D4XyVBht_RnRj7Du6ivhuboW8dDeby6KUUPHbzNsLBIPVO_3wf0XKj0LuyrHuG9jMaXg68AjBj5POGuB52j9XO4DnmelB5BG9_bbjvV5vqSa3BJvQ",
+       "description": "Үйдегі косметикалық қызметтер қосымшасы."
+     },
+     {
+       "name": "FeliciaVivo",
+       "link": {
+           "appStore": "",
+           "playMarket": "https://play.google.com/store/apps/details?id=app.com.feliciavivo"
+       },
+       "framework": "Joomla",
+       "image": "https://lh6.googleusercontent.com/E4FiV-ktNLV7gx0KLU50gVUTvg6A1vVMjH0dOqL1jRC9ui_t8GycaeclnA20kMUrf8_QMERiuDVFxpltMkm9W0_wvISAa7UiKvjeYygF91auUVjoxX0Ce2qAitJgk4NwVEq3Tqs",
+       "description": "Feliciavivo - бұл қызметтердің агрегаторы - медицина, сұлулық, спорт және білім саласындағы бизнеске, ірі емханалар мен кіші медициналық орталықтарға, сұлулық салондары мен курорттарына, фитнес -орталықтарға, тренажер залдарына және басқа да қызметтерді табудың ыңғайлы және түсінікті әдісі. білім беру мекемелері, жеке мамандар үшін, сондай -ақ осы қызметтерді тұтынушылар үшін."
+     },
+     {
+       "name": "Kazini",
+       "link": {
+           "appStore": "",
+           "playMarket": "https://play.google.com/store/apps/details?id=com.harmis.kazini&hl=en"
+       },
+       "framework": "Codeigniter",
+       "image": "https://lh6.googleusercontent.com/ozl_vfytWRgn1w9j_fsryk0rAjwX90gWN0zSV4S0DCoWZGs0wajQgKLTs9MkahL8xgOASiQyKxhdXz2-pakTF8JUQdMv1IQbrTrXfOs5zILV-Us8Cx5367ouSt5fGZEChDxsoUg",
+       "description": "Фрилансерлер мен қызмет алушыларға арналған қосымша"
+     },
+     {
+       "name": "JobsiteMN",
+       "link": {
+           "appStore": "https://itunes.apple.com/us/app/jobsitemn/id1451484838?ls=1&mt=8",
+           "playMarket": ""
+       },
+       "framework": "Spring",
+       "image": "https://lh3.googleusercontent.com/BD3YXH4edKFLEDtP3UqxO5Dpw0ewSYx_VedtQB1XhJG52jZ8etoihAX-JUVJ14OrRZju3qgDwxho2PLZYYaLBB_hx8ZcgRh-GI3KHDoq4aqM95KD6npaxaDvYbxvOiTGlUXVqnE",
+       "description": "Моңғолияда жұмыс іздеуге арналған қосымша"
+     },
+     {
+       "name": "Taxieasy driver",
+       "link": {
+           "appStore": "https://itunes.apple.com/in/app/taxieasy-driver/id1088214907?mt=8",
+           "playMarket": ""
+       },
+       "framework": "Joomla",
+       "image": "https://lh6.googleusercontent.com/JN-Mg1RKydSZpp8gpK2-Y5UHDFdqE4EXknTiplwPKI_F4tMj7zMCx_k2o0UT6jayZEMyGt_Hztg88nv8gHl26KMwWNY-6tQFtoq7FkkdX6Qjrow1Pb99JFZmJDuVywvZC_8qROc",
+       "description": "Uber сияқты Малайзия такси қосымшасы, онда пайдаланушы мен драйверде Uber сияқты барлық мүмкіндіктері бар әр түрлі қосымшалар бар."
+     },
+     {
+       "name": "Lavoparcel",
+       "link": {
+           "appStore": "https://itunes.apple.com/in/app/lavo-parcel/id1436163704?mt=8",
+           "playMarket": "https://play.google.com/store/apps/details?id=com.lavo.parcel"
+       },
+       "framework": "Codeigniter",
+       "image": "https://lh3.googleusercontent.com/7ML2JB3xkWOLfEt-WFqPPWe26YSwgOBW_3aHxoqwcB92hwBjxLzXLKDJ2lKeqd6k-sn_pRmc0cas2HIoolGW0TeFHt0ZT8yoYnQEmofPzkdIxaCR61xoxA6xmCvICO4i9byVhqo",
+       "description": "Lavo Parcel бір нәрсе жіберуді қажет ететін және бірдеңе тапқысы келетін екі адам арасындағы байланысты қамтамасыз етеді. Платформа сізге тауарды немесе сәлемдемені оңай алып, жеткізуге мүмкіндік береді."
+     },
+     {
+       "name": "Hikashop",
+       "link": {
+           "appStore": "https://itunes.apple.com/us/app/harmis-hika/id1207239203?mt=8",
+           "playMarket": "https://play.google.com/store/apps/details?id=com.app.hikashop"
+       },
+       "framework": "Spring",
+       "image": "https://lh6.googleusercontent.com/bKVz6Hpj7gJ_VQFOIPLWNRmW1tHkvj8-sl_7H_W9FTguNsLvO6Q10jTBkpjbfOyBw8vAJyNSNs-AfWFeOsfYqF0PhIuYw3ezw5M3XWqQ7lCSYs_FGVutkFl8DSiYecv2iWp7RVQ",
+       "description": "Өнімдерді, киімдерді, сатқыңыз келетін нәрсені сатуға және сатып алуға арналған дайын электрондық коммерция қосымшасы ... біз оны сіздің дизайныңызбен өте қысқа мерзімде және бағамен пайдалануға дайын боламыз."
+     },
+     {
+       "name": "Michongo merchant",
+       "link": {
+           "appStore": "",
+           "playMarket": "https://play.google.com/store/apps/details?"
+       },
+       "framework": "Joomla",
+       "image": "https://lh5.googleusercontent.com/9eL41sbnNPub9A8hk0w6B8uE5RPGdwIEOCe5lKpxK1uFU16-zaiG5-VfhqWfBdgLV1fR8OkrpCBaeLz7fWyjW29BdNWvMWaLs7hbqlpzDAA7XNmgFF0UvkJ6nZCTMxgxG9WNth4",
+       "description": "Michongo Business жеткізушілерге белгілі бір уақытта Michongo-ны басқаруға мүмкіндік береді. Бұл қосымша барлық Михонго уақытында және кідіріссіз өңделуі үшін жасалды."
+     },
+     {
+       "name": "Michongo",
+       "link": {
+           "appStore": "",
+           "playMarket": "https://play.google.com/store/apps/details"
+       },
+       "framework": "Joomla",
+       "image": "https://lh5.googleusercontent.com/IVTYSezxcG37PzxuYKtC1yULBf7p4z0Hb9XWr4nmSY-gpk3_6vSgrsQp8HpHeAxB-lTz7A02-SL7hbvlZ1eW7bQaoC5XsrNiRmg19MVpI4CLBPtV7yZw4wDImUEjBHi-4gvfOxQ",
+       "description": "Рынок онлайн-покупок для предложений и скидок"
+     },
+     {
+       "name": "Trick rides",
+       "link": {
+           "appStore": "https://itunes.apple.com/us/app/trick-rides/id1369839363?mt=8",
+           "playMarket": "https://play.google.com/store/apps/details?id=com.trick.rides"
+       },
+       "framework": "Hikashop",
+       "image": "https://lh4.googleusercontent.com/47krTcn53yrYlOUcuZqWCV0Tci_Gwsu-32xardxB4C60zbHbVh0GUGzyfTa4xrKm96B-ORVPKq_XV0tYARzSGHT1xnFFEZjoScyGDtd9TAVp5K6SYO8D9IIuY9vYlBh3Ax6k6Zk",
+       "description": "Автокөлік керек-жарақтарын сатуға және сатып алуға арналған электрондық коммерция қосымшасы"
+     },
+     {
+       "name": "Tabumart",
+       "link": {
+           "appStore": "https://itunes.apple.com/sa/app/%D8%AA%D8%A7%D8%A8%D9%88%D9%85%D8%A7%D8%B1%D9%83/id1363000497?ls=1&mt=8",
+           "playMarket": "https://play.google.com/store/apps/details?id=com.tabuk.market"
+       },
+       "framework": "Opencart",
+       "image": "https://lh3.googleusercontent.com/QiwkQ3LlUz3qV5L3xN6yP-hHOxr_Lwg7bZj5X_bqsV8YVDw6ojU8ZkP_Fi6UYCYtaISs1TVI5Ah0yYIx2zalutJDa9OtqS4WaAHjH2q2MJ03EuAuL7KCxrI9Vpmf3ImGaSeoCNU",
+       "description": "Өнім сатуға және сатып алуға арналған электрондық коммерциялық қолданба, онда пайдаланушы жүргізушімен сөйлесе алады, ал жүргізушінің жеке қосымшасы бар."
+     },
+     {
+       "name": "Giftshop",
+       "link": {
+           "appStore": "https://itunes.apple.com/us/app/giftshop-ahmedabad/id1335053292?mt=8",
+           "playMarket": "https://play.google.com/store/apps/details?id=com.giftshop.ahmedabad"
+       },
+       "framework": "Hikashop",
+       "image": "https://lh6.googleusercontent.com/fHlH9EzgDvjIBp93sKJczbbIsm9u7RpZN6kVqfXKOoTQypPMoK16ZI-U3hKQXGkQJH1LieW-IgAjG-JKPGmLcXv1NIuTJqLyfYkkQjHJ3z6R2N_vZbzR3wA6JWRTM0bndZSmd0Q",
+       "description": "Сыйлықтарды сатуға және сатып алуға арналған электрондық коммерция қосымшасы"
+     },
+     {
+       "name": "Dates & Wheat",
+       "link": {
+           "appStore": "https://itunes.apple.com/gb/app/dates-and-wheat/id1405959580?mt=8&ign-mpt=uo%3D2",
+           "playMarket": "https://play.google.com/store/apps/details?id=com.harmis.dateswheat"
+       },
+       "framework": "Opencart",
+       "image": "https://lh5.googleusercontent.com/JwTd0SxarL7-WKnfDu6W7YUfPi6aH-s4wAeQq0MR8iEsYxUXjqMNmR2opCxqaZNuORw5Srcfrb62RkgKIHHQ52-DmOrvFNPVm5VNJBQohXYMl9cvOanh0-0AxWoApCX2OsqzVxQ",
+       "description": "Құрманы сатуға және сатып алуға арналған электрондық коммерция қосымшасы"
+     }
+     ]
+  }

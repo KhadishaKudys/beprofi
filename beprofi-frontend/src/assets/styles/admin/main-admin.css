@@ -1,0 +1,77 @@
+.sections{
+    padding: 20px;
+    margin-left: 60px;
+    background: #252422;
+    color: rgb(255, 255, 255);
+    color: white;
+    transition: 0.4s;
+}
+
+.col-xs-6 {
+    height: fit-content;
+}
+
+.personal-area{
+    height: fit-content;
+    min-height: 100%;
+}
+
+.card{
+    background: #252422;
+    height: fit-content;
+    box-shadow: 2px 10px 100px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+#menu-btn{
+    visibility: hidden;
+    opacity: 0;
+}
+
+@media screen and (max-width: 800px) {
+
+    #menu-btn {
+        visibility: visible;
+        opacity: 1;
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        margin-left: -25px;
+        width: 50px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        padding: 5px;
+      }
+
+    .main-menu{
+        margin-left: -180px;
+        visibility: hidden;
+        cursor: not-allowed;
+    }
+
+    .sections{
+        margin-left: 0px;
+        height: 100vh;
+    }
+
+    .active-nav {
+        margin-left: 0;
+        width: 180px;
+        overflow:visible;
+        visibility: visible;
+        cursor: pointer;
+      }
+
+    .active-nav li{
+        width: fit-content;
+    }
+
+    .active-cont #menu-btn{
+        margin-left: 155px;
+    }
+    
+      .active-cont {
+        /* margin-left: 180px; */
+      }
+}

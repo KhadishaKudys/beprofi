@@ -1,0 +1,49 @@
+
+h1{
+    font-size: 7vw;
+    color: #FFFCF2;
+    font-family: 'Righteous', cursive;
+}
+
+button{
+    border: 2px solid #ffffff;
+    outline: none;
+    margin-top: 15%;
+    border-radius: 5px;
+    background: none;
+    padding: 5px 10px;
+    color: #ffffff;
+    width: 100%;
+  }
+
+input{
+    border: none;
+    margin-top: 30px;
+    border-bottom: 1px solid white;
+    background: none;
+    color: white;
+    font-size: 14px;
+}
+
+input::placeholder{
+    color: white;
+}
+
+input:focus, input:active{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #CCC5B9;
+    color: #CCC5B9
+}
+
+input:focus::placeholder{
+    color: #CCC5B9;
+}
+
+.card{
+    padding: 10% 10%;
+    border: none;
+    background-color: #DE3B38;
+    color: white;
+    min-width: 200px;
+}

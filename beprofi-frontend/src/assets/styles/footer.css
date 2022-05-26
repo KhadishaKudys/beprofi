@@ -1,0 +1,73 @@
+footer{
+    padding: 20px 7%;
+    background-color: #252422;
+}
+
+#footer{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.row{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.row1{
+    display: flex;
+    padding-top: 10px;
+}
+
+p{
+    color: white;
+    font-size: 12px;
+}
+
+a{
+    color: white;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 12px;
+}
+
+a:hover, a:focus{
+    color: #FF3D33;
+    text-decoration: underline 1px #FF3D33;
+}
+
+.title:hover, .title:focus{
+    text-decoration: none;
+}
+
+#logo-mini{
+    margin-right: 8px;
+}
+
+.line{
+    height: 1px;
+    background-color: #FF3D33;
+}
+
+h5{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 800px){
+    div{
+        text-align: center;
+        justify-content: center;
+    }
+
+    h5{
+        margin-bottom: 5px;
+        margin-top: 20px;
+    }
+
+    .row .col-md-3{
+        text-align: left;
+    }
+
+    footer{
+        padding: 5px 7%;
+    }
+  }

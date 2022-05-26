@@ -1,0 +1,194 @@
+#main{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#intro{
+    overflow: hidden;
+    background: radial-gradient(50% 50% at 50% 50%, #403D39 0%, #252422 100%);
+}
+
+.introContent{
+    height: 520px;
+}
+
+  .row{
+      position: relative;
+      display:flex;
+  }
+
+.col-md-10{
+    text-align: left;
+    padding-left: 38%;
+    position: absolute;
+}
+
+.col-md-5{
+    text-align: right;
+    /* position: absolute; */
+    /* x-index: 10; */
+}
+
+h1{
+    font-size: 7vw;
+    color: #FFFCF2;
+    font-family: 'Righteous', cursive;
+}
+
+button{
+    border: 2px solid #ffffff;
+    outline: none;
+    margin-top: 15%;
+    border-radius: 5px;
+    background: none;
+    padding: 5px 10px;
+    color: #ffffff;
+    width: 100%;
+  }
+
+input{
+    border: none;
+    margin-top: 30px;
+    border-bottom: 1px solid white;
+    background: none;
+    color: white;
+    font-size: 14px;
+}
+
+input::placeholder{
+    color: white;
+}
+
+input:focus, input:active{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #CCC5B9;
+    color: #CCC5B9
+}
+
+input:focus::placeholder{
+    color: #CCC5B9;
+}
+
+.card{
+    padding: 10% 10%;
+    border: none;
+    background-color: #DE3B38;
+    color: white;
+    min-width: 200px;
+}
+
+.introContent{
+    padding-top: 80px;
+}
+
+img{
+    /* width: 200px; */
+    position: absolute;
+    height: 340px;
+    border-radius: 5px;
+    margin-left: 470px;
+}
+
+@media screen and (max-width: 800px) {
+    h1 {
+      font-size: 12vw;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+    .col-md-10{
+        position: relative;
+        padding-left: 0%;
+        padding-right: 0%;
+        margin-top: 101%;
+    }
+
+    .introContent{
+        height: fit-content;
+        padding-top: 3%;
+    }
+
+    .col-md-5{
+        text-align: center;
+        width: 100%;
+        align-content: center;
+        align-items: center;
+        position: absolute;
+        margin-top: 33%;
+        z-index: 1;
+    }
+
+    h1{
+        margin-right: 0%;
+        color: #FF3D33;
+    }
+
+    .col-md-1{
+        align-items: center;
+        align-content: center;
+        position: absolute;
+        margin-top: 3%;
+    }
+
+    img{
+        width: 92%;
+        border-radius: 5px;
+        margin: 0%;
+    }
+
+    .error-alert-message{
+        display: none;
+        visibility: hidden;
+    }
+  }
+
+/* Bounce To Right */
+button {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+  }
+  button:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #ffffff;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  button:hover, button:focus, button:active {
+    color: rgb(0, 0, 0);
+  }
+  button:hover:before, button:focus:before, button:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  }
+
+.error-alert-message{
+    width: fit-content;
+    right: 20px;
+    position: absolute;
+}
